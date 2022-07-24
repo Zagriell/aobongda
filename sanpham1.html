@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sanpham1.net</title>
+
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="CSS/style-sanpham1.css">
+
+
+     
+    <!--Link CDN font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!--Flex box container_1-->
+    <div class="container_1">
+        <a href=""><img class="image_logo" src="image/logo.png" alt="logo"></a>
+        <!--Hotline 1-->
+        <ul class="number_phone">
+            <li><i class="fa-solid fa-phone"></i><b> Hotline</b></li>
+            <li style="color: red;"><b>0989.248.835</b></li>
+        </ul>
+
+        <!--Hotlien 2-->
+        <ul class="number_phone">
+            <li><i class="fa-solid fa-phone"></i><b> Hotline</b></li>
+            <li style="color: red;"><b>0943.039.054</b></li>
+        </ul>
+    </div>
+
+
+
+
+    <!--Flex box container_2-->
+    <div class="header">
+        <div class="container_2">
+            <ul class="main_menu">
+                <li style="background-color: #5b50b1;;"><a href="index.html">Trang chủ</a></li>
+                <li><a href="">Áo đội tuyển quốc gia</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Áo World Cup 2022</a></li>
+                        <li><a href="">Áo đội tuyển Châu Á</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Áo câu lạc bộ</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Giải Ngoại Hạng Anh</a></li>
+                        <li><a href="">Giải Laliga</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Giày bóng đá</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Giày Wika</a></li>
+                        <li><a href="">Giày Kamito</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Áo khoác</a></li>
+                <li><a href="">In áo bóng đá</a></li>
+                <li><a href="">Phụ kiện</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Găng tay thủ môn</a></li>
+                        <li><a href="">Áo trọng tài</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Hệ thống chi nhánh</a></li>
+            </ul>
+        </div>
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script>
+            $(document).ready(function(){
+                // tìm tất cả các li có sub-menu và thêm nó vào class has-child
+                $('.sub_menu').parent('li').addClass('has_child'); 
+            });
+        </script>
+
+
+    <!-- Container_3 -->
+    <div class="container_3">
+        <!-- left -->
+        <div class="container-left">
+            <img src="image/CLBAnh.png" alt="">
+        </div>
+
+        <!-- right -->
+        <div class="container-right">
+            <p>Áo Bóng Đá tuyển Anh Trắng World Cup sân nhà 2022-2023</p>
+            <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li style="margin-left:10px; color:gray;cursor: pointer;">(1 đánh giá)</li>
+            </ul>
+
+
+            <div class="cac-form">
+                <div class="form">
+                    <input type="radio" id="cogian" name="fav_language" value="Hàng thun co giãn">
+                    <label for="cogian">
+                        <span class="title">Hàng thun co giãn</span>
+                        <span class="price"><b>120.000 đ</b></span>
+                    </label>                   
+                </div>
+
+                <div class="form">
+                    <input type="radio" id="caro" name="fav_language" value="Hàng Mè Caro">
+                    <label for="caro">
+                        <span class="title">Hàng mè Caro</span>
+                        <span class="price"><b>160.000 đ</b></span>
+                    </label>                   
+                </div>
+
+
+                <div class="form">
+                    <input type="radio" id="thunlanh" name="fav_language" value="Hàng Thun lạnh">
+                    <label for="thunlanh">
+                        <span class="title">Hàng thun lạnh</span>
+                        <span class="price"><b>80.000 đ</b></span>
+                    </label>                
+                </div>
+
+            </div>
+
+
+
+            <div class="buy-now">
+                <a href=""><b>MUA NGAY</b></a>
+            </div>
+
+            <div class="tu-van-mua-hang">
+                <span>Tư vấn mua hàng</span> 
+                <span id="number-phone">
+                    <b><i class="fa-solid fa-phone"></i> 0989.248.835</b>
+                </span>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

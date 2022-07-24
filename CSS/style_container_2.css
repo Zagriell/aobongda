@@ -1,0 +1,82 @@
+.header{
+    background-color: #312783;;
+    margin-bottom: 130px;
+}
+
+.container_2{
+    margin-left: 100px;
+}
+
+.main_menu{
+    display: flex;
+    list-style: none;
+}
+
+.main_menu li{
+    position: relative;
+}
+
+.main_menu li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 18px 20px;
+    /* background-color: red; */
+}
+
+.main_menu ul.sub_menu{
+    position: absolute;
+    background-color: #312783;
+    list-style: none;
+    padding: 15px 0;
+    width: 200px;
+    display: none;
+}
+
+.main_menu li:hover ul.sub_menu {
+    display: block;
+}
+
+.main_menu ul.sub_menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid gray;
+}
+
+.main_menu ul.sub_menu li:hover a{
+    border-bottom: 1px solid red;
+}
+
+.main_menu  ul.sub_menu  li:last-child a{
+    border: none;
+}
+
+/* Thiết lập border khi hover */
+.main_menu>li>a{
+    position: relative;
+}
+.main_menu>li>a::before{
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.main_menu>li:hover>a::before{
+    width: 100%;
+}
+
+.main_menu>li.has_child::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f107";
+    color: #afabab;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 18px 0px;
+}
+

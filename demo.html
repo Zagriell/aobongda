@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aobongda.net</title>
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="CSS/style_container_1.css">
+    <link rel="stylesheet" href="CSS/style_container_2.css">
+    <link rel="stylesheet" href="CSS/style_slide.css">
+    <link rel="stylesheet" href="CSS/slyte_container_3.css">
+     
+    <!--Link CDN font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+
+
+<body>
+
+    <!--Flex box container_1-->
+    <div class="container_1">
+        <a href=""><img class="image_logo" src="image/logo.png" alt="logo"></a>
+        <!--Hotline 1-->
+        <ul class="number_phone">
+            <li><i class="fa-solid fa-phone"></i><b> Hotline</b></li>
+            <li style="color: red;"><b>0989.248.835</b></li>
+        </ul>
+
+        <!--Hotlien 2-->
+        <ul class="number_phone">
+            <li><i class="fa-solid fa-phone"></i><b> Hotline</b></li>
+            <li style="color: red;"><b>0943.039.054</b></li>
+        </ul>
+    </div>
+
+    <!-- Slide -->
+    <div class="khoi-slide">
+        <div class="cac-slide">
+            <div class="slide active"><img class="img-slide" src="image/anh1.png" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh2.png" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh3.jpeg" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh4.jpeg" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh5.jpeg" alt=""></div>
+        </div>
+        <div class="nut-slide">
+            <span id="btn-prev"><i class="fas fa-angle-left"></i></span>
+            <span id="btn-next"><i class="fas fa-angle-right"></i></span>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Javascript/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Javascript/popper.min.js"></script>
+    <script src="Javascript/script-slide.js"></script>
+
+
+
+    <!--Flex box container_2-->
+    <div class="header">
+        <div class="container_2">
+            <ul class="main_menu">
+                <li style="background-color: #5b50b1;;"><a href="index.html">Trang chủ</a></li>
+                <li><a href="">Áo đội tuyển quốc gia</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Áo World Cup 2022</a></li>
+                        <li><a href="">Áo đội tuyển Châu Á</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Áo câu lạc bộ</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Giải Ngoại Hạng Anh</a></li>
+                        <li><a href="">Giải Laliga</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Giày bóng đá</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Giày Wika</a></li>
+                        <li><a href="">Giày Kamito</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Áo khoác</a></li>
+                <li><a href="">In áo bóng đá</a></li>
+                <li><a href="">Phụ kiện</a>
+                    <ul class="sub_menu">
+                        <li><a href="">Găng tay thủ môn</a></li>
+                        <li><a href="">Áo trọng tài</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Hệ thống chi nhánh</a></li>
+            </ul>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script>
+            $(document).ready(function(){
+                // tìm tất cả các li có sub-menu và thêm nó vào class has-child
+                $('.sub_menu').parent('li').addClass('has_child'); 
+            });
+        </script>
+    </div>
+
+
+    <!--Slide show-->
+
+    <!-- <div class="khoi-slide">
+        <div class="cac-slide">
+            <div class="slide active"><img class="img-slide" src="image/anh1.png" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh2.png" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh3.jpeg" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh4.jpeg" alt=""></div>
+            <div class="slide"><img class="img-slide" src="image/anh5.jpeg" alt=""></div>
+        </div>
+        <div class="nut-slide">
+            <span id="btn-prev"><i class="fas fa-angle-left"></i></span>
+            <span id="btn-next"><i class="fas fa-angle-right"></i></span>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Javascript/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Javascript/popper.min.js"></script>
+    <script src="Javascript/script-slide.js"></script> -->
+
+
+    <!-- Container_3 -->
+    <!-- thanh menu -->
+    <div class="container_3">
+        <div class="thanh_menu">
+            <p><a style="color:white" href=""><b>Áo đội tuyển quốc gia</b></a></p>
+            <ul>
+                <li><a href="">Áo đội tuyển Châu Á</a></li>
+                <li><a href="">Áo đội tuyển Châu Phi</a></li>
+                <li><a href="">Áo đội tuyển Châu Mỹ</a></li>
+                <li><a href="">Áo đội tuyển Châu Á</a></li>
+            </ul>
+        </div>
+
+        <!-- sản phẩm -->
+        <div class="content">
+
+            <!-- sản phẩm 1 -->
+            <div class="sanpham">
+                <a href=""><img class="img_sanpham" src="image/CLBAnh.png" alt=""></a> <br>
+                <a href="" title="Áo bóng đá tuyển Anh trắng World Cup sân nhà 2022-2023" class="main_topic" >Áo bóng đá tuyển Anh trắng World Cup sân nhà 2022-2023</a>
+                <span class="item_span"><b>80.000đ</b></span>
+                <span>(Hàng thun lạnh)</span> <br>
+                <span class="item_span"><b>120.000đ</b></span>
+                <span>(Hàng co giãn)</span> <br>
+                <span class="item_span"><b>160.000đ</b></span>
+                <span>(Hàng Mè Caro)</span> <br>
+                <a class="chitiet" href="">Xem chi tiết <i style="font-size: 10px;" class="fas fa-angle-right"></i></a>
+            </div>
+
+
+            <!-- sản phẩm 2 -->
+            <div class="sanpham">
+                <a href=""><img class="img_sanpham" src="image/CLBBodaonha.png" alt=""></a> <br>
+                <a href="" title="Áo bóng đá tuyển Bồ Đào Nha World Cup sân nhà 2022-2023" class="main_topic">Áo bóng đá tuyển Bồ Đào Nha World Cup sân nhà 2022-2023</a>
+                <span class="item_span"><b>80.000đ</b></span>
+                <span>(Hàng thun lạnh)</span> <br>
+                <span class="item_span"><b>120.000đ</b></span>
+                <span>(Hàng co giãn)</span> <br>
+                <span class="item_span"><b>160.000đ</b></span>
+                <span>(Hàng Mè Caro)</span> <br>
+                <a class="chitiet" href="">Xem chi tiết <i style="font-size: 10px;" class="fas fa-angle-right"></i></a>
+            </div>
+
+            <!-- sản phẩm 3 -->
+            <div class="sanpham">
+                <a href=""><img class="img_sanpham" src="image/CLBPhap2022.png" alt=""></a> <br>
+                <a href="" title="Áo bóng đá tuyển Pháp World Cup sân nhà 2022-2023" class="main_topic">Áo bóng đá tuyển Pháp World Cup sân nhà 2022-2023</a>
+                <span class="item_span"><b>80.000đ</b></span>
+                <span>(Hàng thun lạnh)</span> <br>
+                <span class="item_span"><b>120.000đ</b></span>
+                <span>(Hàng co giãn)</span> <br>
+                <span class="item_span"><b>160.000đ</b></span>
+                <span>(Hàng Mè Caro)</span> <br>
+                <a class="chitiet" href="">Xem chi tiết <i style="font-size: 10px;" class="fas fa-angle-right"></i></a>
+            </div>
+
+            <!-- sản phẩm 4 -->
+            <div class="sanpham">
+                <a href=""><img class="img_sanpham" src="image/CLBPau.png" alt=""></a> <br>
+                <a href="" title="Áo bóng đá CLB PAU FC xanh đen 2022-2023" class="main_topic">Áo bóng đá CLB PAU FC xanh đen 2022-2023</a>
+                <span class="item_span"><b>80.000đ</b></span>
+                <span>(Hàng thun lạnh)</span> <br>
+                <span class="item_span"><b>120.000đ</b></span>
+                <span>(Hàng co giãn)</span> <br>
+                <span class="item_span"><b>160.000đ</b></span>
+                <span>(Hàng Mè Caro)</span> <br>
+                <a class="chitiet" href="">Xem chi tiết <i style="font-size: 10px;" class="fas fa-angle-right"></i></a>
+            </div>
+
+            <!-- sản phẩm 5 -->
+            <div class="sanpham">
+                <a href=""><img class="img_sanpham" src="image/CLBPhap.png" alt=""></a> <br>
+                <a href="" title="Áo bóng đá tuyển Pháp World Cup sân nhà 2022-2023" class="main_topic">Áo bóng đá tuyển Pháp World Cup sân nhà 2022-2023</a>
+                <span class="item_span"><b>80.000đ</b></span>
+                <span>(Hàng thun lạnh)</span> <br>
+                <span class="item_span"><b>120.000đ</b></span>
+                <span>(Hàng co giãn)</span> <br>
+                <span class="item_span"><b>160.000đ</b></span>
+                <span>(Hàng Mè Caro)</span> <br>
+                <a class="chitiet" href="">Xem chi tiết <i style="font-size: 10px;" class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* THANH MENU */
+.container_3{
+    background-color: #ffffff;
+    margin: 20px 100px;
+    border: 1px solid #fff;
+    max-width: 1200px;
+}
+
+.thanh_menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e5e5;
+}
+
+.thanh_menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.thanh_menu p{
+    background-color: #312783;;
+    color: red;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+
+.thanh_menu li{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.thanh_menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.thanh_menu a:hover{
+    color: #007bff;
+}
+
+
+
+
+/* SẢN PHẨM */
+
+.content{
+    display: flex;
+
+}
+
+
+.sanpham{
+    width: 20%;
+    font-size: 15px;
+    margin: 10px 5px 20px 5px;
+    background-color: #fff;
+    border: 1px solid rgb(241, 240, 240);
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.sanpham a{
+    text-decoration: none;
+}
+
+.sanpham a:hover{
+    color: #007bff;
+}
+
+.img_sanpham{
+    width: 100%;
+    height: 200px;
+}
+
+
+.main_topic{
+    margin-top:5px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: black;
+}
+
+
+span{
+    margin-left: 8px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.item_span{
+    color: red;
+}
+
+
+.chitiet{
+    margin-left: 8px;
+    color: #007bff;
+
+}
